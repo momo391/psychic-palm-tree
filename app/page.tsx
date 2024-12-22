@@ -10,7 +10,7 @@ export default function Page() {
     <>
       <div className="grid place-items-center min-h-screen">
         <AuthTest />
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-4">
           <GuestView>
             <Link
               className={cn(buttonVariants({ variant: "default" }))}
