@@ -6,7 +6,7 @@ import { logout } from "@/lib/auth/log-out";
 export const LogOutButton = () => {
   return (
     <>
-      <Button variant={"destructive"} onClick={() => logout}>
+      <Button variant={"destructive"} onClick={() => logout()}>
         Log Out
       </Button>
     </>
